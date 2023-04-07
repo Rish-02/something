@@ -1,0 +1,238 @@
+a.nav-link{
+    color: blueviolet;
+    padding: auto 0;
+}
+a.nav-link:hover{
+    border: 1px solid blueviolet;
+    border-radius: 10%;
+}
+#navbar{
+    margin:0 5rem ;
+}
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    text-transform: lowercase;
+    font-size: 1.5rem;
+}
+.navbar{
+    background: transparent;
+  }
+  .navbar-brand, .nav-link {
+    color: white !important;
+    font-size: x-large !important;
+  }
+  .nav-link {
+    font-size: medium !important;
+    border-bottom: 1px solid white;
+    font-weight: bold !important;
+  }
+  .nav {
+    width: 50%;
+  }
+  .nav-item {
+    margin: 0 1rem;
+  }
+  .dropdown {
+    margin: 0 1rem;
+  }
+  .txt-white {
+    color: white !important;
+  }
+  .btn-outline-white {
+    border-color: white;
+  }
+  .dropdown {
+    border: none !important;
+  }
+  .dropdown-additional-pages {
+    margin-top: 2px;
+    font-size: medium !important;
+    font-weight: bold !important;
+    border-bottom: 1px solid white !important;
+  }
+  .search-box {
+    width: 25%;
+  }
+
+
+.header{
+    background-image: url(../assets/pexels-anni-roenkae-4175070.jpg);
+    /* background-color: rgb(173, 74, 173); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+}
+.heading{
+    padding:10rem 0 5rem 0 ;
+}
+.head-btn{
+    padding: 0.5rem 1rem;
+    width: 140px;
+    /* border: 1px solid blueviolet; */
+    border-radius: 1rem !important;
+}
+.containerHead {
+    /* background-image: url(../assets//pexels-designecologist-1779487.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    object-fit: contain;
+    width: 50%;
+    height: 80vh;
+    margin:0 auto;
+    
+}
+.containerHead img {
+    width: 100%;
+    border-radius: 2rem;
+    /* object-fit: contain; */
+}
+.home{
+    margin-top: 4rem;
+    padding:0 5rem;
+}
+.about{
+    padding: 0 5rem;
+}
+.contact{
+    padding: 0 5rem;
+}
+.sec-head{
+    margin-top: 2rem;
+    color: black;
+}
+.img-pages{
+    width: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+}
+
+.prices {
+    margin-top: 5rem;
+}
+
+.prices-heading {
+    margin-bottom: 2rem;
+}
+
+.prices-cards {
+    width: 82%;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+}
+.prices-cards .card {
+    text-align: center;
+    margin: 0 2rem;
+    border-width: 0;
+    z-index: 2;
+/* border-style: solid; */
+/* border-color: #dce3ed !important; */
+/* border-color-translucent: rgba(0, 0, 0, 0.175); */
+border-radius: 0.75rem !important;
+box-shadow: 0px 4px 12px 0px rgba(63,62,237,.1)
+}
+.prices-cards .card:hover {
+    border: 4px solid;
+    border-left: 4px solid #635994 !important;
+    border-color: #635994;
+    z-index: 3;
+    transform: scale(1.15);
+    transition-duration: 200ms;
+}
+
+.prices-cards .card .card-body button {
+    margin-bottom: 2rem;
+    width: 70%;
+}
+.prices-cards .card .card-body ul {
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+    list-style-type: "✔️ ";
+    line-height: 2;
+}
+.btn-custom {
+    background-color: #635994 !important;
+    color: white !important;
+}
+.card-title {
+    font-weight: bold !important;
+}
+.price-money {
+    font-size: 100%;
+}
+.price-value {
+    font-size: 200%;
+}
+
+
+.foot {
+    display: flex;
+    flex-direction: column;
+    /* flex-flow: row wrap; */
+    padding: 30px 30px 20px 30px;
+    color: #2f2f2f;
+    background-color: #fff;
+    border-top: 1px solid #e5e5e5;
+  }
+
+  .footer-main {
+    margin: 0 auto;
+  }
+  
+  .foot__addr {
+    margin-right: 2.25em;
+    margin-bottom: 2em;
+    width: 35%;
+  }
+  
+  .foot__logo {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    text-transform: lowercase;
+    font-size: 1.5rem;
+  }
+  
+  .foot__addr h2 {
+    margin-top: 1.3em;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  
+  .nav__title {
+    font-weight: 400;
+    font-size: 15px;
+  }
+  
+  .foot ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .foot a {
+    text-decoration: none;
+  }
+  
+  .foot__nav {
+    width: 30%;
+    display: flex;
+      flex-flow: row wrap;
+  }
+  
+  .nav__ul a {
+    color: #999;
+  }
+  
+  .legal {
+    color: #999;
+    margin: 0 auto;
+  }
+    
+  .heart {
+    color: #2f2f2f;
+  }
+  

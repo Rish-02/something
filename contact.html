@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Something</title>
+    <!-- <script>
+        function loadPage() {
+          var xhttp = new XMLHttpRequest();
+          var xjhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+              document.getElementById("navbar").innerHTML = this.responseText;
+            }
+          };
+          xhttp.open("GET", "./navbar.html", true);
+          xhttp.send();
+          xjhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+              document.getElementById("footer").innerHTML = this.responseText;
+            }
+          };
+          xjhttp.open("GET", "./footer.html", true);
+          xjhttp.send();
+        }
+      </script> -->
+  </head>
+  <body onload="loadPage()">
+    <header class="header">
+      <!-- navbar -->
+
+      <nav class="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <!-- <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="35" class="d-inline-block align-text-top"> -->
+            <strong>something</strong>
+          </a>
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <div class="dropdown">
+              <button class="btn dropdown-toggle txt-white dropdown-additional-pages" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Additional Pages
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="./contact.html">Contact-Us</a></li>
+                <li><a class="dropdown-item" href="#">Blog Page</a></li>
+                <li><a class="dropdown-item" href="#">Product Page</a></li>
+              </ul>
+            </div>          
+          </ul>
+          <form class="d-flex search-box">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-white" type="submit"><i class="fa-solid fa-magnifying-glass txt-white"></i></button>
+          </form>
+        </div>
+      </nav>
+
+
+        <div class="heading-contact">
+            <!-- <div class="heading-bg"></div> -->
+            <h1 style="text-align: center; font-size: xxx-large;"><strong>Connect With Us</strong></h1>
+            <p style="text-align: center;">Our Sales and Service team works 24x7 to provide you with the best</p>
+            <div style="text-align: center; font-weight: 700;">
+                SCROLL DOWN!!!!!
+            </div>
+        </div>
+    </header>
+
+    <section id="contact">
+        <div class="contact-wrapper d-flex">
+          <form id="contact-form" class="form-hori" role="form">
+            <div class="form-group mb-2">
+              <div class="col-sm-12">
+                <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+              </div>
+            </div>
+            <div class="form-group mb-2">
+              <div class="col-sm-12">
+                <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+              </div>
+            </div>
+            <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+            <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+              <div class="alt-send-button">
+                <span class="send-text">SEND</span>
+              </div>
+            </button>
+          </form>
+            
+            <div class="col-md-6">
+                <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=your%20address&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.divi-discounts.com">divi-discounts.com</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:100%;}</style></div>
+              </div>
+        </div>
+        <div class="direct-contact-container">
+              <ul class="contact-list">
+                <li class="list-item"><span class="contact-text place">City, State</span></li>
+                <li class="list-item"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></span></li>
+                <li class="list-item"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">hitmeup@gmail.com</a></span></li>
+              </ul>
+              <ul class="social-media-list">
+                <li><a href="#" class="contact-icon">
+                  <!-- <i class="fa fa-github"></i></a> -->
+                  <i class="fa fa-github" aria-hidden="false"></i>
+                </li>
+                <li><a href="#" class="contact-icon">
+                  <i class="fa fa-twitter"></i></a>
+                </li>
+                <li><a href="#" class="contact-icon">
+                  <i class="fa fa-instagram"></i></a>
+                </li>       
+              </ul>
+              <div class="copyright">
+                &copy; ALL OF THE RIGHTS RESERVED
+              </div>
+            </div>
+      </section>  
+              
+          <!-- footer -->
+          <footer class="foot">
+            <div class="d-flex w-75 footer-main">
+              <div class="foot__addr">
+                <h1 class="foot__logo">Something</h1>
+                <h2>Contact</h2>
+                <address>
+                  5534 Somewhere In. The World 22193-10212<br>  
+                  <a class="foot__btn" href="mailto:example@gmail.com">Email Us</a>
+                </address>
+              </div>
+              <ul class="foot__nav justify-content-between">
+                <li class="nav__item">
+                  <h2 class="nav__title">Media</h2>
+                  <ul class="nav__ul">
+                    <li><a href="#">Online</a></li>
+                    <li><a href="#">Print</a></li>   
+                    <li><a href="#">Alternative Ads</a></li>
+                  </ul>
+                </li>
+                <li class="nav__item">
+                  <h2 class="nav__title">Legal</h2>
+                  <ul class="nav__ul">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="legal w-75">
+                <p>&copy; 2019 Something. All rights reserved.</p>
+                <div class="legal__links">
+                  <span>Made with <span class="heart">♥</span> remotely from Anywhere</span>
+                </div>
+          </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> 
+  </body>
+</html>
