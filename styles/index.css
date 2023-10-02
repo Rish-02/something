@@ -18,6 +18,9 @@ a.nav-link:hover{
 .navbar{
     background: transparent;
   }
+  .navbar-color{
+    background-color: #625794;
+  }
   .navbar-brand, .nav-link {
     color: white !important;
     font-size: x-large !important;
